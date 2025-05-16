@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+body {
+    background-color: darkseagreen;
+}
+nav li {
+    display: block;
+    position: static;
+    bottom: 0;
+    
+    
+    
+}
+
+
+#botao {
+    font-size: smaller;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+footer {
+    
+    background-color: aliceblue;
+    font-family: "Playwrite DK Loopet", cursive;
+    
+}    
+#paragrafo { /* # =  id*/
+    color: blueviolet;
+}
+.italico { /* . = class*/
+    font-style: italic;
+}
+.espacamento {
+    letter-spacing: 0.5in;
+}
+
+* { /* * = todo o site*/
+    font-family: "Playwrite DK Loopet", cursive;    
+    font-size: large;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    border: 5px solid ;
+}
+.divverde {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 5px solid ;
+}
+.divred {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 5px solid ;
+}

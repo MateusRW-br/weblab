@@ -1,0 +1,37 @@
+body {
+    background-color: lightslategrey;
+    
+}
+.caixa {
+    width: 500px;
+    height: 100px;
+    color: rgb(0, 0, 0);   
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /*nao deixa tudo empilhado */
+    justify-content: center;
+    align-items: center;
+}   
+.brasao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 110px;
+    width: 90px;
+    
+
+}
+.box {
+    text-align: center;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    border-radius: 10cqmax;
+    justify-content: space-around;
+    flex-grow: 1;
+}
